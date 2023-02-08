@@ -1,0 +1,7 @@
+console.log(1+"a")
+console.log(-1+"a")
+console.log("a"+2+4)
+console.log(2+4+"a")
+console.log("strig"+1)
+console.log(1+1+"string")
+console.log("5"+2)

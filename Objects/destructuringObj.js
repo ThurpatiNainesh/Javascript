@@ -94,7 +94,19 @@ let {[prop] : foo} = {name: "Sarah", country: "Nigeria", job: "Developer"};
 
 console.log(foo);//"Sarah"
 
+//Q10
+// var foo = {n: 1};
+// var bar = foo;
+// console.log(foo === bar) //true
+// foo.x = foo = {n: 2};
+
+// console.log(foo) //ans: {n: 2}
+// console.log(bar) //ans: {n: 1, x: {n: 2}}
+// console.log(foo === bar) //false
 
 
+// Because the object variable only contains the pointer of memory location of that object, when we declare var bar = foo, both foo and bar point to the same object.
+
+// In the next logic, foo = {n:2} is running first where foo is assigned to a different object. Hence, foo has a pointer to a different object. At the same time, foo.x = foo is running, foo here still contains the old pointer. so the logic is similar with
 
 
